@@ -25,6 +25,22 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
 
+  buttonLogout:{
+    position: "absolute", 
+    width:60,
+    height: 60,
+    bottom: 30,
+    right: 20,
+    justifyContent: "center",
+    alignItems: "center"
+  },
+
+  iconButtonLogout:{
+    color:"#fff",
+    fontSize: 25,
+    fontWeight:"bold"
+  },
+
   tasks:{
     width: "100%",
     flexDirection: "row",
